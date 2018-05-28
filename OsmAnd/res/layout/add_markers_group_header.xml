@@ -10,7 +10,7 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="@dimen/bottom_sheet_title_height"
-        android:gravity="center_vertical"
+        android:gravity="center"
         android:paddingEnd="@dimen/content_padding"
         android:paddingLeft="@dimen/content_padding"
         android:paddingRight="@dimen/content_padding"

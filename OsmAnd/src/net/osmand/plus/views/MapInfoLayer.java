@@ -193,9 +193,11 @@ public class MapInfoLayer extends OsmandMapLayer {
 	}
 
 	public void recreateControls() {
-		leftStack.removeAllViews();
-		mapInfoControls.populateStackControl(leftStack, settings.getApplicationMode(), true, expanded);
-		leftStack.requestLayout();
+		if (leftStack != null) {
+			leftStack.removeAllViews();
+			mapInfoControls.populateStackControl(leftStack, settings.getApplicationMode(), true, expanded);
+			leftStack.requestLayout();
+		}
 
 		rightStack.removeAllViews();
 		mapInfoControls.populateStackControl(rightStack, settings.getApplicationMode(), false, expanded);
@@ -257,7 +259,10 @@ public class MapInfoLayer extends OsmandMapLayer {
 			rulerControl.updateTextSize(nightMode, ts.textColor, ts.textShadowColor,  (int) (2 * view.getDensity()));
 			this.expand.setBackgroundResource(ts.expand);
 			rightStack.invalidate();
-			leftStack.invalidate();
+
+			if (leftStack != null) {
+				leftStack.invalidate();
+			}
 		}
 	}
 

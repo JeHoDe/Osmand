@@ -35,7 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/list_content_padding"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="22dp"
                 android:src="@drawable/monitoring_rec_big"
                 android:visibility="visible"/>
 

@@ -4,6 +4,7 @@
               android:layout_height="wrap_content"
               android:layout_gravity="bottom"
               android:background="?attr/bottom_menu_view_bg"
+              android:paddingBottom="20pt"
               android:orientation="horizontal"
               tools:context="net.osmand.plus.download.ui.DataStoragePlaceDialogFragment">
 

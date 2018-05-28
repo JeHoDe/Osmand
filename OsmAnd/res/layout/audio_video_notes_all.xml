@@ -3,6 +3,7 @@
 			android:layout_width="fill_parent"
 			android:layout_height="fill_parent"
 			android:id="@+id/main_scroll"
+			android:paddingBottom="20pt"
 			android:background="@color/dashboard_background" >
 
 </ScrollView>

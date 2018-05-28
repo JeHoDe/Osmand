@@ -10,17 +10,26 @@
     app:contentInsetLeft="4dp"
     app:contentInsetStart="4dp">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     <ImageView
         android:id="@+id/toolbar_back"
         android:contentDescription="@string/back_to_map"
+        android:layout_gravity="center_horizontal"
         android:layout_width="@dimen/list_item_height"
-        android:layout_height="match_parent"
-        android:layout_gravity="left"
+        android:layout_height="@dimen/list_item_height"
         android:background="@drawable/dashboard_button_light"
         android:scaleType="center"
         android:src="@drawable/ic_arrow_back"
         tools:visibility="visible"/>
-
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
     <ImageView
         android:id="@+id/toolbar_list"
         android:contentDescription="@string/backToMenu"
@@ -96,4 +105,6 @@
         android:src="@drawable/ic_action_edit_dark"
         android:visibility="gone"/>
 
+    </LinearLayout>
+    </LinearLayout>
 </android.support.v7.widget.Toolbar>

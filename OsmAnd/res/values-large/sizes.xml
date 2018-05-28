@@ -94,16 +94,16 @@
 	<dimen name="dashboard_map_top_padding">480dp</dimen>
 	<dimen name="dashboard_land_width">480dp</dimen>
 	    <!-- TextSizes -->
-    <dimen name="default_list_text_size_large">22sp</dimen>
-    <dimen name="default_list_text_size">18sp</dimen>
-    <dimen name="default_desc_text_size">16sp</dimen>
-    <dimen name="default_sub_text_size">14sp</dimen>
-	<dimen name="default_sub_text_size_small">12sp</dimen>
-	<dimen name="welcome_header_text_size">27sp</dimen>
-	<dimen name="text_button_text_size">22sp</dimen>
-	<dimen name="travel_card_primary_text_size">22sp</dimen>
+    <dimen name="default_list_text_size_large">32sp</dimen>
+    <dimen name="default_list_text_size">28sp</dimen>
+    <dimen name="default_desc_text_size">26sp</dimen>
+    <dimen name="default_sub_text_size">24sp</dimen>
+	<dimen name="default_sub_text_size_small">22sp</dimen>
+	<dimen name="welcome_header_text_size">37sp</dimen>
+	<dimen name="text_button_text_size">32sp</dimen>
+	<dimen name="travel_card_primary_text_size">32sp</dimen>
 
-	<dimen name="dialog_header_text_size">24sp</dimen>
+	<dimen name="dialog_header_text_size">34sp</dimen>
 
 	<dimen name="default_split_segments_overview">15sp</dimen>
 	<dimen name="default_split_segments_data">15sp</dimen>
