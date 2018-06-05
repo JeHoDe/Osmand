@@ -34,7 +34,7 @@
 	<dimen name="map_widget_image">120dp</dimen>
 	<dimen name="map_button_spacing">17dp</dimen>
 	<dimen name="map_button_spacing_land">9dp</dimen>
-	<dimen name="map_button_margin">9dp</dimen>
+	<dimen name="map_button_margin">10dp</dimen>
 	<dimen name="map_routing_progress_width">150dp</dimen>
 	<dimen name="map_mode_button_width">48dp</dimen>
 
@@ -121,7 +121,7 @@
 	<dimen name="empty_state_text_button_padding_right">90dp</dimen>
 	<dimen name="empty_state_text_button_padding_top">96dp</dimen>
 
-	<dimen name="bottom_sheet_cancel_button_height">72dp</dimen>
+	<dimen name="bottom_sheet_cancel_button_height">104dp</dimen>
 	<dimen name="landscape_bottom_sheet_dialog_fragment_width">540dp</dimen>
 
 	<dimen name="measurement_tool_select_radius">30dp</dimen>
@@ -145,7 +145,7 @@
 	<dimen name="measurement_tool_button_margin">12dp</dimen>
 	<dimen name="measurement_tool_button_padding">12dp</dimen>
 	<dimen name="measurement_tool_button_height">54dp</dimen>
-	<dimen name="bottom_sheet_title_height">78dp</dimen>
+	<dimen name="bottom_sheet_title_height">88dp</dimen>
 	<dimen name="bottom_sheet_descr_height">66dp</dimen>
 	<dimen name="bottom_sheet_list_item_height">72dp</dimen>
 	<dimen name="bottom_sheet_icon_margin">36dp</dimen>

@@ -26,6 +26,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:layout_marginLeft="80pt"
+                android:layout_marginRight="80pt"
                 android:paddingLeft="@dimen/context_menu_padding_margin_default"
                 android:paddingRight="@dimen/context_menu_padding_margin_default">
 
@@ -93,6 +95,7 @@
                 android:layout_marginBottom="@dimen/context_menu_direction_margin"
                 android:layout_marginTop="@dimen/context_menu_padding_margin_tiny"
                 android:gravity="top"
+                android:layout_marginLeft="30pt"
                 android:orientation="horizontal"
                 android:paddingLeft="@dimen/context_menu_padding_margin_default"
                 android:paddingRight="@dimen/context_menu_padding_margin_default"
@@ -125,6 +128,7 @@
                 android:layout_marginBottom="@dimen/context_menu_direction_margin"
                 android:layout_marginTop="@dimen/context_menu_padding_margin_tiny"
                 android:gravity="top"
+                android:layout_gravity="center_horizontal"
                 android:orientation="horizontal"
                 android:paddingTop="3dp"
                 android:paddingBottom="3dp"
@@ -343,10 +347,10 @@
 
                     <net.osmand.plus.widgets.TextViewEx
                         android:id="@+id/title_button_bottom"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@null"
-                        android:gravity="center_vertical"
+                        android:gravity="center"
                         android:paddingLeft="@dimen/context_menu_button_padding_x"
                         android:paddingRight="@dimen/context_menu_button_padding_x"
                         android:text="@string/shared_string_delete"

@@ -4,6 +4,8 @@
     xmlns:osmand="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/freeVersionBanner"
+    android:layout_marginLeft="20pt"
+    android:layout_marginRight="20pt"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/osmo_header_dark"

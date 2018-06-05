@@ -4,6 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:background="?attr/expandable_list_item_background"
+    android:paddingTop="20pt"
     android:minHeight="@dimen/list_item_height"
     android:orientation="horizontal"
     android:paddingLeft="@dimen/list_content_padding"

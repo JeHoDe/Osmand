@@ -8,6 +8,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <LinearLayout
+        android:paddingBottom="20pt"
+        android:paddingLeft="20pt"
+        android:paddingRight="20pt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clickable="true"
@@ -108,17 +111,19 @@
 
                 <Button
                     android:id="@+id/actionButton"
+                    style="@style/Widget.AppCompat.Button.Borderless"
                     android:layout_width="wrap_content"
                     android:layout_height="36dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="6dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="6dp"
-                    android:layout_marginBottom="6dp"
+                    android:gravity="left|center_vertical"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
-                    style="@style/Widget.AppCompat.Button.Borderless"
-                    android:gravity="left|center_vertical"
-                    android:textColor="?attr/contextMenuButtonColor"
-                    android:text="@string/shared_string_ok"/>
+                    android:text="@string/shared_string_ok"
+                    android:textAlignment="center"
+                    android:textColor="?attr/contextMenuButtonColor" />
 
             </LinearLayout>
 

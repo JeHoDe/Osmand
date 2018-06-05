@@ -110,7 +110,8 @@
         android:layout_gravity="left"
         android:background="?attr/bg_color"
         android:clipToPadding="false"
-        android:padding="20pt"
+        android:paddingTop="200pt"
+        android:paddingBottom="200pt"
         android:drawSelectorOnTop="true"/>
 
 </android.support.v4.widget.DrawerLayout>

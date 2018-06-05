@@ -43,6 +43,8 @@
 			android:id="@+id/dismiss_button"
 			android:layout_width="0dp"
 			android:layout_height="match_parent"
+			android:paddingRight="5pt"
+			android:paddingLeft="60pt"
 			android:layout_weight="1"
 			android:background="?attr/selectableItemBackground">
 
@@ -72,6 +74,8 @@
 			android:layout_width="0dp"
 			android:layout_height="match_parent"
 			android:layout_weight="1"
+			android:paddingLeft="5pt"
+			android:paddingRight="60pt"
 			android:background="?attr/selectableItemBackground"
 			android:visibility="gone"
 			tools:visibility="visible">

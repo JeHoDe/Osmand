@@ -10,6 +10,9 @@
 	android:minHeight="@dimen/bottom_sheet_descr_height"
 	android:paddingLeft="@dimen/content_padding"
 	android:paddingRight="@dimen/content_padding"
+	android:layout_marginTop="30pt"
+	android:layout_marginLeft="80pt"
+	android:layout_marginRight="80pt"
 	android:textColor="?android:textColorSecondary"
 	android:textSize="@dimen/default_desc_text_size"
 	tools:text="Some long description"/>

@@ -8,7 +8,8 @@
     android:layout_gravity="bottom"
     android:background="?attr/bottom_menu_view_bg"
     android:clickable="true"
-    android:paddingBottom="20pt"
+    android:paddingBottom="10pt"
+    android:paddingLeft="10pt"
     android:visibility="gone"
     tools:visibility="visible">
 
@@ -46,11 +47,12 @@
             tools:text="Lat: 50.45375\nLon: 30.48693"/>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
+            android:gravity="center_horizontal"
             android:layout_marginLeft="12dp"
-            android:layout_marginRight="12dp">
+            android:layout_marginRight="86dp">
 
             <Button
                 android:id="@+id/create_button"

@@ -5,6 +5,9 @@
 	android:layout_width="match_parent"
 	android:layout_height="wrap_content"
 	android:background="?attr/selectableItemBackground"
+	android:layout_marginTop="30pt"
+	android:layout_marginLeft="80pt"
+	android:layout_marginRight="80pt"
 	android:minHeight="@dimen/bottom_sheet_selected_item_title_height"
 	android:paddingLeft="@dimen/content_padding"
 	android:paddingRight="@dimen/content_padding">
